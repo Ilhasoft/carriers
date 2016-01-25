@@ -21,9 +21,9 @@ setup(
     url='https://github.com/Ilhasoft/carriers',
     license='BSD licence, see LICENCE.txt',
     description='Library consultation phone carriers around the world.',
-    long_description=open('README.me').read(),
+    long_description=open('README.md').read(),
     zip_safe=False,
-    download_url="https://github.com/Ilhasoft/carrier",
+    download_url="https://github.com/Ilhasoft/carriers/archive/master.zip",
     install_requires=install_requires,
     classifiers=CLASSIFIERS,
 )
