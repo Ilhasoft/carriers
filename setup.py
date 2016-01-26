@@ -8,9 +8,6 @@ CLASSIFIERS = [
     'Operating System :: OS Independent',
     'Topic :: Software Development',
 ]
-install_requires = [
-    'django>=1.8.4',
-]
 
 setup(
     name='ilhasoft-carriers',
@@ -22,8 +19,7 @@ setup(
     license='BSD licence, see LICENCE.txt',
     description='Library consultation phone carriers around the world.',
     long_description=open('README.md').read(),
-    zip_safe=False,
     download_url="https://github.com/Ilhasoft/carriers/archive/master.zip",
-    install_requires=install_requires,
+    keywords=['carriers', 'ilhasoft', 'mobile', 'ilhasoft-carriers'],
     classifiers=CLASSIFIERS,
 )
