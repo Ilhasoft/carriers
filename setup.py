@@ -11,10 +11,10 @@ CLASSIFIERS = [
 
 setup(
     name='ilhasoft-carriers',
-    version='0.1.3',
+    version='0.1.5',
     author='Teeh Amaral - Ilhasoft',
     author_email='ed.amaral@ilhasoft.com.br',
-    packages=[''],
+    packages=['carrier'],
     url='https://github.com/Ilhasoft/carriers',
     license='BSD licence, see LICENCE.txt',
     description='Library consultation phone carriers around the world.',
