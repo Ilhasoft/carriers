@@ -11,14 +11,13 @@ CLASSIFIERS = [
 
 setup(
     name='ilhasoft-carriers',
-    version='0.1',
+    version='0.1.3',
     author='Teeh Amaral - Ilhasoft',
     author_email='ed.amaral@ilhasoft.com.br',
     packages=[''],
     url='https://github.com/Ilhasoft/carriers',
     license='BSD licence, see LICENCE.txt',
     description='Library consultation phone carriers around the world.',
-    long_description=open('README.rst').read(),
     download_url="https://github.com/Ilhasoft/carriers/archive/master.zip",
     keywords=['carriers', 'ilhasoft', 'mobile', 'ilhasoft-carriers'],
     classifiers=CLASSIFIERS,
