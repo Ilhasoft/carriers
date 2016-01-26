@@ -1,4 +1,5 @@
 import json
+from operator import itemgetter
 from data import data
 
 
@@ -7,7 +8,9 @@ class Carrier(object):
         self.data = data
 
     def get_query(self, field_object, field_search):
-        return [obj for obj in self.data if obj[field_object] == str(field_search).lower()]
+        objects = [obj for obj in self.data if obj[field_object] == str(field_search).lower()]
+        objects = sorted(objects, key=itemgetter('network'))
+        return objects
 
     def get_search(self, field, value):
         assert field.__class__.__name__ == 'str', '%s must be of type string' % field
